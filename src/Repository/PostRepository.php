@@ -4,7 +4,7 @@ namespace App\Repository;
 
 use App\Entity\Post as PostEntity;
 
-interface Post
+interface PostRepository
 {
     public function findAll(): PostEntity;
     public function find(string $id): PostEntity;

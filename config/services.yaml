@@ -28,3 +28,16 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    #App\Validator\ValidatorAggregate:
+    #    class: App\Validator\ValidatorAggregate
+    #    arguments:
+    #        $validators:
+    #            - '@App\Validator\IsString'
+    #            - '@App\Validator\HasMoreThanTwoCharacters'
+
+    #App\Validator\Validator:
+    #    alias: App\Validator\ValidatorAggregate
+
+    Zend\Expressive\Template\TemplateRendererInterface:
+        class: Zend\Expressive\Twig\TwigRenderer

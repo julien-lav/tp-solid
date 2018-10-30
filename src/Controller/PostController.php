@@ -5,8 +5,7 @@ namespace App\Controller;
 use App\Service\PostService;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-
-// use Zend\Expressive\Template\TemplateRendererInterface;
+use Zend\Expressive\Template\TemplateRendererInterface;
 
 final class PostController 
 {
